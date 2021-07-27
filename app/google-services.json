@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "543306053811",
+    "firebase_url": "https://newimdbclone-5c4a4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "newimdbclone-5c4a4",
+    "storage_bucket": "newimdbclone-5c4a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543306053811:android:dc822f9ca5d01dba70d8c6",
+        "android_client_info": {
+          "package_name": "com.example.imdbclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543306053811-cte9li9vrft32esdb918045dor57rd8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhDAE-qQj22E-IKBlF6hQSElKlbzSUkLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543306053811-cte9li9vrft32esdb918045dor57rd8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543306053811:android:7918f10be74520b670d8c6",
+        "android_client_info": {
+          "package_name": "com.example.newimdbclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543306053811-cte9li9vrft32esdb918045dor57rd8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhDAE-qQj22E-IKBlF6hQSElKlbzSUkLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543306053811-cte9li9vrft32esdb918045dor57rd8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543306053811:android:f43b79bdfc88c10170d8c6",
+        "android_client_info": {
+          "package_name": "com.example.parkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543306053811-cte9li9vrft32esdb918045dor57rd8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhDAE-qQj22E-IKBlF6hQSElKlbzSUkLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543306053811-cte9li9vrft32esdb918045dor57rd8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

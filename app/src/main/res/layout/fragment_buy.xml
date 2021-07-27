@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/buyticekts_f_design"
+    tools:context=".SelectedFragments.buyFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        >
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup"
+            >
+            <RadioButton android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One Hour"
+                />
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two Hours"/>
+            <RadioButton
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Three Hours"/>
+            <RadioButton
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Six Hours"/>
+            <RadioButton
+                android:id="@+id/twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twelve Hours"/>
+            <RadioButton
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subscription"/>
+        </RadioGroup>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitButtonF"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/login_button_design"
+            android:fontFamily="sans-serif-medium"
+            android:text="Submit"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select duraiton"
+            android:fontFamily="@font/didact_gothic"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:id="@+id/price"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
